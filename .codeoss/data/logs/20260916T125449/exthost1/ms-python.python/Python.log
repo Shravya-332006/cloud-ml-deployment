@@ -1,0 +1,79 @@
+2026-09-16 12:55:02.664 [warning] Dir "/home/sshravyaharikant/.pixi/envs" is not watchable (directory does not exist)
+2026-09-16 12:55:06.265 [info] Starting Environment refresh
+2026-09-16 12:55:06.265 [info] Searching for interpreters in posix paths locator
+2026-09-16 12:55:06.360 [info] Searching for pyenv environments
+2026-09-16 12:55:06.360 [info] Searching for conda environments
+2026-09-16 12:55:06.360 [info] Searching for global virtual environments
+2026-09-16 12:55:06.361 [info] Searching for custom virtual environments
+2026-09-16 12:55:06.361 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-16 12:55:06.370 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-16 12:55:07.221 [info] pyenv is not installed
+2026-09-16 12:55:07.221 [info] Finished searching for pyenv environments: 951 milliseconds
+2026-09-16 12:55:07.226 [info] Finished searching for custom virtual envs: 882 milliseconds
+2026-09-16 12:55:07.253 [info] > conda info --json
+2026-09-16 12:55:07.280 [info] > hatch env show --json
+2026-09-16 12:55:07.280 [info] cwd: .
+2026-09-16 12:55:07.338 [info] > pyenv which python
+2026-09-16 12:55:07.338 [info] cwd: .
+2026-09-16 12:55:07.342 [info] Finished searching for global virtual envs: 1003 milliseconds
+2026-09-16 12:55:07.426 [info] Found: /bin/python --> /bin/python3.12
+2026-09-16 12:55:07.443 [info] Found: /bin/python3 --> /bin/python3.12
+2026-09-16 12:55:07.456 [info] Found: /bin/python3.12 --> /bin/python3.12
+2026-09-16 12:55:07.590 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2026-09-16 12:55:07.606 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2026-09-16 12:55:07.607 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2026-09-16 12:55:13.117 [info] Finished searching for interpreters in posix paths locator: 6859 milliseconds
+2026-09-16 12:55:13.117 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-09-16 12:55:13.149 [info] > pyenv which python
+2026-09-16 12:55:13.149 [info] cwd: .
+2026-09-16 12:55:13.180 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-09-16 12:55:13.180 [info] Environments refresh paths discovered (event): 6940 milliseconds
+2026-09-16 12:55:13.180 [info] Environments refresh paths discovered: 6940 milliseconds
+2026-09-16 12:55:13.316 [info] Environments refresh finished (event): 7076 milliseconds
+2026-09-16 12:55:13.352 [info] Environment refresh took 7121 milliseconds
+2026-09-16 12:55:16.442 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/sshravyaharikant/requirements.txt
+2026-09-16 12:55:16.442 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2026-09-16 12:55:16.449 [info] Python interpreter path: /bin/python
+2026-09-16 12:55:16.498 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/sshravyaharikant/requirements.txt
+2026-09-16 12:55:16.498 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2026-09-16 12:55:27.100 [info] Starting Jedi language server for sshravyaharikant.

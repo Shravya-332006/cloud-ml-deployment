@@ -1,0 +1,279 @@
+Starting background process...
+Background process started with PID 2030
+[INFO] 2026-09-16 12:55:34.972 PM -- [CoderAgentExecutor] Overriding workspace path to: /home/sshravyaharikant
+[ERROR] 2026-09-16 12:55:35.074 PM -- Warning: unexpected file /home/sshravyaharikant/.gemini/extensions/extension-enablement.json in extensions directory.
+[ERROR] 2026-09-16 12:55:35.079 PM -- Warning: unexpected file /home/sshravyaharikant/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-09-16 12:55:35.080 PM -- Loading extension: vertex (version: 0.2.0)
+Ignore file not found: /home/sshravyaharikant/.geminiignore, continue without it.
+Ignore file not found: /home/sshravyaharikant/.aiexclude, continue without it.
+Ignore file not found: /home/sshravyaharikant/.geminiignore, continue without it.
+Ignore file not found: /home/sshravyaharikant/.aiexclude, continue without it.
+Ripgrep is not available. Falling back to GrepTool.
+Loading extension: vertex
+[MCP error] Error during discovery for MCP server 'VertexMcpServer': spawn ${extensionPath}/run.sh ENOENT Error: spawn ${extensionPath}/run.sh ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+    at onErrorNT (node:internal/child_process:508:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn ${extensionPath}/run.sh',
+  path: '${extensionPath}/run.sh',
+  spawnargs: []
+}
+Hook registry initialized with 0 hook entries
+Hook system initialized successfully
+[DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /home/sshravyaharikant (Stopping at trusted root: /home/sshravyaharikant — no git root found)
+[DEBUG] [MemoryDiscovery] Starting upward search from /home/sshravyaharikant stopping at /home/sshravyaharikant
+[DEBUG] [MemoryDiscovery] deduplication: keeping /home/sshravyaharikant/.gemini/extensions/vertex/GEMINI.md (dev: 2065, ino: 131099)
+[DEBUG] [MemoryDiscovery] Successfully read and processed imports: /home/sshravyaharikant/.gemini/extensions/vertex/GEMINI.md (Length: 55458)
+[MCP error] Error during discovery for MCP server 'notebook': MCP error -32000: Connection closed _McpError: MCP error -32000: Connection closed
+    at _McpError.fromError (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:301979:16)
+    at Client._onclose (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:302148:33)
+    at _transport.onclose (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:302118:16)
+    at McpComplianceTransport.transport.onclose (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:406291:25)
+    at ChildProcess.<anonymous> (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:310565:76)
+    at ChildProcess.emit (node:events:509:28)
+    at maybeClose (node:internal/child_process:1124:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:306:5) {
+  code: -32000,
+  data: undefined
+}
+[MCP error] Error during discovery for MCP server 'visualization': MCP error -32000: Connection closed _McpError: MCP error -32000: Connection closed
+    at _McpError.fromError (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:301979:16)
+    at Client._onclose (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:302148:33)
+    at _transport.onclose (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:302118:16)
+    at McpComplianceTransport.transport.onclose (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:406291:25)
+    at ChildProcess.<anonymous> (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:310565:76)
+    at ChildProcess.emit (node:events:509:28)
+    at maybeClose (node:internal/child_process:1124:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:306:5) {
+  code: -32000,
+  data: undefined
+}
+Scheduling MCP context refresh...
+Executing MCP context refresh...
+MCP context refresh already in progress, queuing trailing execution.
+[DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /home/sshravyaharikant (Stopping at trusted root: /home/sshravyaharikant — no git root found)
+[DEBUG] [MemoryDiscovery] Starting upward search from /home/sshravyaharikant stopping at /home/sshravyaharikant
+[DEBUG] [MemoryDiscovery] deduplication: keeping /home/sshravyaharikant/.gemini/extensions/vertex/GEMINI.md (dev: 2065, ino: 131099)
+[DEBUG] [MemoryDiscovery] Successfully read and processed imports: /home/sshravyaharikant/.gemini/extensions/vertex/GEMINI.md (Length: 55458)
+MCP context refresh complete.
+Coalescing burst refresh requests (300ms delay)...
+Executing MCP context refresh...
+[DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /home/sshravyaharikant (Stopping at trusted root: /home/sshravyaharikant — no git root found)
+[DEBUG] [MemoryDiscovery] Starting upward search from /home/sshravyaharikant stopping at /home/sshravyaharikant
+[DEBUG] [MemoryDiscovery] deduplication: keeping /home/sshravyaharikant/.gemini/extensions/vertex/GEMINI.md (dev: 2065, ino: 131099)
+[DEBUG] [MemoryDiscovery] Successfully read and processed imports: /home/sshravyaharikant/.gemini/extensions/vertex/GEMINI.md (Length: 55458)
+MCP context refresh complete.
+[STARTUP] StartupProfiler.flush() called with 1 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 10887.701742000001
+[INFO] 2026-09-16 12:55:50.732 PM -- [Config] Using CCPA Auth:
+[INFO] 2026-09-16 12:55:50.732 PM -- [Config] Attempting COMPUTE_ADC first.
+Failed to load credentials from /home/sshravyaharikant/.gemini/oauth_creds.json: ENOENT: no such file or directory, open '/home/sshravyaharikant/.gemini/oauth_creds.json'
+Attempting to authenticate via metadata server application default credentials.
+Authentication successful.
+Experiments loaded {
+  experimentIds: [
+    106018683,
+    105979538,
+    105979560,
+    106015337,
+    105867471,
+    105979522,
+    106100625,
+    104638466,
+    101868197,
+    104817729,
+    105695344,
+    104913215,
+    105821930,
+    106392119,
+    106413419,
+    106474627,
+    106617390,
+    106458969,
+    104922093,
+    103012598,
+    106659347,
+    106143956,
+    106659338,
+    105856899,
+    106064030,
+    105746180,
+    106567313,
+    106701435,
+    105822886,
+    105785684,
+    105721273,
+    105658067,
+    105885552,
+    105864343,
+    106166745,
+    106106760,
+    106428372,
+    106283618,
+    105620019,
+    106392108,
+    106281951,
+    106264532,
+    106392115,
+    105887313,
+    106032303,
+    106228452,
+    106113886,
+    103118072,
+    105979531,
+    105979553,
+    106015328,
+    105867469,
+    105979517,
+    106100654,
+    104638459,
+    101551624,
+    104673683,
+    105695346,
+    104913210,
+    105821928,
+    106392117,
+    106413417,
+    106474625,
+    106617388,
+    106458967,
+    104922082,
+    103012592,
+    106659344,
+    106659335,
+    106064028,
+    105746178,
+    106567309,
+    106701431,
+    105822881,
+    105721268,
+    105658064,
+    105885549,
+    105863625,
+    106102706,
+    105906495,
+    106283614,
+    105620012,
+    106392106,
+    106392113,
+    105887311,
+    106032301,
+    106113877,
+    103118069,
+    106018680
+  ],
+  flags: [
+    {
+      flagId: '45740197',
+      floatValue: 0.7
+    },
+    {
+      flagId: '45740199',
+      stringValue: ''
+    },
+    {
+      flagId: '45740200',
+      stringValue: ''
+    },
+    {
+      flagId: '45743869',
+      boolValue: false
+    },
+    {
+      flagId: '45750526',
+      boolValue: true
+    },
+    {
+      flagId: '45750527',
+      intValue: '90'
+    },
+    {
+      flagId: '45752213',
+      boolValue: false
+    },
+    {
+      flagId: '45761848',
+      boolValue: true
+    },
+    {
+      flagId: '45768879',
+      boolValue: true
+    },
+    {
+      flagId: '45773036',
+      stringValue: ''
+    },
+    {
+      flagId: '45773134',
+      intValue: '300'
+    },
+    {
+      flagId: '45773135',
+      intValue: '600'
+    },
+    {
+      flagId: '45773187',
+      stringValue: ''
+    },
+    {
+      flagId: '45773188',
+      boolValue: false
+    },
+    {
+      flagId: '45773189',
+      intValue: '30'
+    },
+    {
+      flagId: '45773190',
+      intValue: '15'
+    },
+    {
+      flagId: '45774515',
+      intValue: '10'
+    },
+    {
+      flagId: '45784352',
+      boolValue: true
+    },
+    {
+      flagId: '45807049',
+      boolValue: false
+    },
+    {
+      flagId: '45817109',
+      boolValue: false
+    },
+    {
+      flagId: '45823456',
+      boolValue: false
+    },
+    {
+      flagId: '45825097',
+      boolValue: false
+    },
+    {
+      flagId: '45825098',
+      boolValue: false
+    },
+    {
+      flagId: '45827954',
+      boolValue: false
+    },
+    {
+      flagId: '45834473',
+      boolValue: true
+    },
+    {
+      flagId: '45838944',
+      boolValue: false
+    }
+  ]
+}
+[INFO] 2026-09-16 12:55:51.953 PM -- [Config] COMPUTE_ADC successful.
+[INFO] 2026-09-16 12:55:51.953 PM -- [Config] GOOGLE_CLOUD_PROJECT: cloudshell-gca
+[INFO] 2026-09-16 12:55:52.057 PM -- Using InMemoryTaskStore
+[INFO] 2026-09-16 12:55:52.119 PM -- [CoreAgent] Agent Server started on http://localhost:45567
+[INFO] 2026-09-16 12:55:52.119 PM -- [CoreAgent] Agent Card: http://localhost:45567/.well-known/agent-card.json
+[INFO] 2026-09-16 12:55:52.119 PM -- [CoreAgent] Press Ctrl+C to stop the server

@@ -1,0 +1,226 @@
+/* --- CSS Resets & Base Styles --- */
+:root {
+    --primary-color: #202124;    /* Google Dark Gray */
+    --accent-color: #1a73e8;     /* Google Blue */
+    --accent-color-hover: #1557b0;
+    --background-color: #f8f9fa; /* Light Gray */
+    --card-background: #ffffff;
+    --text-color: #3c4043;
+    --text-color-muted: #70757a;
+    --success-color: #0f9d58;    /* Google Green */
+    --pending-color: #dadce0;
+    
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --box-shadow-md: 0 4px 12px rgba(60, 64, 67, 0.1);
+    --transition-base: all 0.2s ease-in-out;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+/* --- Header & Footer --- */
+.app-header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.app-header h1 {
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.app-header .subtitle {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #dadce0;
+}
+
+.app-footer {
+    background-color: #f1f3f4;
+    padding: 20px 0;
+    margin-top: auto;
+    text-align: center;
+    border-top: 1px solid #dadce0;
+    font-size: 0.9rem;
+    color: var(--text-color-muted);
+}
+
+.app-footer .tech-stack {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+/* --- Main Layout --- */
+.app-main {
+    padding: 40px 0;
+}
+
+.main-content-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+@media (min-width: 768px) {
+    .main-content-layout {
+        grid-template-columns: 1.4fr 1fr;
+    }
+}
+
+/* --- Common Card Styles --- */
+.card {
+    background-color: var(--card-background);
+    padding: 30px;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow-md);
+    border: 1px solid #dadce0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: var(--primary-color);
+}
+
+section p {
+    color: var(--text-color-muted);
+    margin-bottom: 25px;
+}
+
+/* --- Left Panel: Input Form --- */
+.ml-input-form .input-group {
+    margin-bottom: 18px;
+}
+
+.ml-input-form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+    color: var(--text-color);
+}
+
+.ml-input-form input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #dadce0;
+    border-radius: var(--border-radius-sm);
+    font-size: 1rem;
+    transition: var(--transition-base);
+}
+
+.ml-input-form input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
+}
+
+.btn-predict {
+    width: 100%;
+    padding: 14px;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius-sm);
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition-base);
+    margin-top: 10px;
+}
+
+.btn-predict:hover {
+    background-color: var(--accent-color-hover);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* --- Right Panel: Prediction Results --- */
+.result-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 250px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.results-panel .card h2 {
+    margin-bottom: 15px;
+}
+
+.status-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #f1f3f4;
+    color: var(--text-color-muted);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid #dadce0;
+}
+
+.status-badge.live {
+    background-color: #e6f4ea;
+    color: var(--success-color);
+    border-color: #ceead6;
+}
+
+.prediction-output {
+    width: 100%;
+    padding: 20px;
+    border-radius: var(--border-radius-sm);
+    font-weight: 500;
+}
+
+.prediction-output.success {
+    background-color: #e6f4ea;
+    border: 1px solid var(--success-color);
+}
+
+.prediction-output.pending {
+    background-color: #f8f9fa;
+    border: 1px solid var(--pending-color);
+    color: var(--text-color-muted);
+}
+
+.prediction-output .prefix {
+    font-size: 0.85rem;
+    color: var(--success-color);
+    letter-spacing: 0.5px;
+}
+
+.prediction-output .species-name {
+    font-size: 1.6rem;
+    margin: 0;
+    color: var(--primary-color);
+    font-weight: 700;
+}

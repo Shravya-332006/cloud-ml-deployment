@@ -1,0 +1,76 @@
+2026-09-16 12:54:59.509 [info] Extension host with pid 1515 started
+2026-09-16 12:54:59.539 [info] Lock '/home/sshravyaharikant/.codeoss/data/User/workspaceStorage/28a38a4/vscode.lock': Lock acquired.
+2026-09-16 12:54:59.770 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-16 12:54:59.771 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-16 12:54:59.772 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2026-09-16 12:55:00.957 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-16 12:55:00.993 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2026-09-16 12:55:01.749 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-16 12:55:01.749 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-16 12:55:01.945 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-16 12:55:01.946 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-16 12:55:01.946 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-16 12:55:05.056 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.authorize'
+2026-09-16 12:55:05.997 [error] CodeExpectedError: Unable to write to User Settings because cloudShell.cloudShell.showCloudCodeInstallHint is not a registered configuration.
+    at j5t.z (https://970-cs-9e8c1f0a-b267-46d6-bdfb-5f81241f28f1.cs-asia-southeast1-palm.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:6793)
+    at j5t.F (https://970-cs-9e8c1f0a-b267-46d6-bdfb-5f81241f28f1.cs-asia-southeast1-palm.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:9255)
+    at j5t.o (https://970-cs-9e8c1f0a-b267-46d6-bdfb-5f81241f28f1.cs-asia-southeast1-palm.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:3874)
+    at Object.factory (https://970-cs-9e8c1f0a-b267-46d6-bdfb-5f81241f28f1.cs-asia-southeast1-palm.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:4657:3774)
+    at Sy.j (https://970-cs-9e8c1f0a-b267-46d6-bdfb-5f81241f28f1.cs-asia-southeast1-palm.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:30:76318)
+    at Sy.k (https://970-cs-9e8c1f0a-b267-46d6-bdfb-5f81241f28f1.cs-asia-southeast1-palm.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:30:76451)
+    at https://970-cs-9e8c1f0a-b267-46d6-bdfb-5f81241f28f1.cs-asia-southeast1-palm.cloudshell.dev/cde-6c78bcd39a077923a0235dc3fc580b4c28e108c4/static/out/vs/code/browser/workbench/workbench.js:30:76360
+2026-09-16 12:55:06.374 [info] Eager extensions activated
+2026-09-16 12:55:06.374 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2026-09-16 12:55:06.375 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2026-09-16 12:55:06.375 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-16 12:55:06.375 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2026-09-16 12:55:06.376 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-16 12:55:08.858 [info] ExtensionService#_doActivateExtension googlecloudtools.datacloud, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2026-09-16 12:55:12.922 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-16 12:55:16.743 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2026-09-16 12:55:46.827 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-09-16 13:00:39.455 [info] Extension host terminating: received terminate message from renderer
+2026-09-16 13:00:39.457 [info] Lock '/home/sshravyaharikant/.codeoss/data/User/workspaceStorage/28a38a4/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-09-16 13:00:39.775 [error] Error: Channel has been closed
+    at r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:2618)
+    at Object.append (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:2715)
+    at append (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/logging/buffered_output_logger.ts:134:18)
+    at Socket.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/node_modules/vscode-languageclient/lib/node/main.js:430:80)
+    at Socket.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Socket.Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-09-16 13:00:39.859 [error] Error: Channel has been closed
+    at r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:2618)
+    at Object.append (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:2715)
+    at append (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/logging/buffered_output_logger.ts:134:18)
+    at Socket.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/node_modules/vscode-languageclient/lib/node/main.js:430:80)
+    at Socket.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Socket.Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-09-16 13:00:39.878 [error] Error: Channel has been closed
+    at n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:3003)
+    at Object.info (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:3348)
+    at QT.info (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:14:709)
+    at ChildProcess.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:19:48759)
+    at ChildProcess.emit (node:events:509:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-16 13:00:39.892 [error] Error: Channel has been closed
+    at n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:3003)
+    at Object.info (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:3348)
+    at Bb.info (/google/devshell/editor/code-oss-for-cloud-shell/extensions/html-language-features/client/dist/node/htmlClientMain.js:14:519)
+    at ChildProcess.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/html-language-features/client/dist/node/htmlClientMain.js:19:48759)
+    at ChildProcess.emit (node:events:509:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-16 13:00:39.965 [error] Error: Channel has been closed
+    at r (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:2618)
+    at Object.appendLine (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:133:2757)
+    at P.logOutputMessage (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2100381)
+    at P.error (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2100272)
+    at ChildProcess.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2317508)
+    at ChildProcess.emit (node:events:509:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-16 13:00:41.163 [info] Extension host with pid 1515 exiting with code 0
