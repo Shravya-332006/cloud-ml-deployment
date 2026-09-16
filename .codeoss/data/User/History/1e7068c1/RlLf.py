@@ -4,32 +4,24 @@ from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
-# Load trained Random Forest model and class names
 with open("model.pkl", "rb") as f:
     model, target_names = pickle.load(f)
 
-# Image URLs for predicted flower species
+# Image mappings for predicted species
 FLOWER_IMAGES = {
-    "setosa": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Irissetosa1.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-    "versicolor": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NdNOqwcvFHrGHX8yRbSvJO5USELkKb12ZOx_U-ryXPwRr0NwssYEh0A&s=10",
-    "virginica": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPZAd8XTl4w28YaSfFmDUO1q4JpG-SJpFe9moNFh-YbYAkj8TJAYgN38I&s=10"
+    "setosa": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Iris_setosa_december_2009_1.jpg",
+    "versicolor": "https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg",
+    "virginica": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Iris_virginica.jpg"
 }
 
 @app.route("/")
 def home():
-    # Initial default input values
-    defaults = {
-        "sepal_length": 5.1,
-        "sepal_width": 3.5,
-        "petal_length": 1.4,
-        "petal_width": 0.2
-    }
+    defaults = {"sepal_length": 5.1, "sepal_width": 3.5, "petal_length": 1.4, "petal_width": 0.2}
     return render_template("index.html", inputs=defaults)
 
 @app.route("/predict", methods=["POST"])
 def predict():
     try:
-        # Capture input parameters from the web form
         inputs = {
             "sepal_length": float(request.form["sepal_length"]),
             "sepal_width": float(request.form["sepal_width"]),
@@ -37,20 +29,12 @@ def predict():
             "petal_width": float(request.form["petal_width"])
         }
 
-        # Model inference
         features = [[inputs["sepal_length"], inputs["sepal_width"], inputs["petal_length"], inputs["petal_width"]]]
         prediction = model.predict(features)[0]
         species = target_names[prediction]
         image_url = FLOWER_IMAGES.get(species, "")
 
-        # Return predictions, species image, and user inputs back to UI
-        return render_template(
-            "index.html", 
-            prediction_text=f"Predicted Species: {species}", 
-            species=species, 
-            image_url=image_url, 
-            inputs=inputs
-        )
+        return render_template("index.html", prediction_text=f"Predicted Species: {species}", species=species, image_url=image_url, inputs=inputs)
 
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 400

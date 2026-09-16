@@ -10,9 +10,9 @@ with open("model.pkl", "rb") as f:
 
 # Image URLs for predicted flower species
 FLOWER_IMAGES = {
-    "setosa": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Irissetosa1.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-    "versicolor": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NdNOqwcvFHrGHX8yRbSvJO5USELkKb12ZOx_U-ryXPwRr0NwssYEh0A&s=10",
-    "virginica": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPZAd8XTl4w28YaSfFmDUO1q4JpG-SJpFe9moNFh-YbYAkj8TJAYgN38I&s=10"
+    "setosa": "",
+    "versicolor": "https://upload.wikimedia.org/wikipedia/commons/4/41/Iris_versicolor_3.jpg",
+    "virginica": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Iris_virginica.jpg"
 }
 
 @app.route("/")

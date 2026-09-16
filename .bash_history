@@ -19,3 +19,8 @@ git remote add origin https://github.com/Shravya-332006/cloud-ml-deployment.git
 git push -u origin main
 git remote set-url origin https://Shravya-332006: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@github.com/Shravya-332006/cloud-ml-deployment.git
 git push -u origin main
+git add .
+git commit -m "Enhanced UI styling and added dynamic flower image output"
+git push
+git push -f origin main
+python app.py
