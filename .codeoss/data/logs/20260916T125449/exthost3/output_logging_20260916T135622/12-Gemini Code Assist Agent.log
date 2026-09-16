@@ -1,0 +1,11 @@
+Starting background process...
+Background process started with PID 3844
+[INFO] 2026-09-16 13:56:56.238 PM -- [CoderAgentExecutor] Overriding workspace path to: /home/sshravyaharikant
+[ERROR] 2026-09-16 13:56:56.286 PM -- Warning: unexpected file /home/sshravyaharikant/.gemini/extensions/extension-enablement.json in extensions directory.
+[ERROR] 2026-09-16 13:56:56.288 PM -- Warning: unexpected file /home/sshravyaharikant/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-09-16 13:56:56.289 PM -- Loading extension: vertex (version: 0.2.0)
+Ignore file not found: /home/sshravyaharikant/.geminiignore, continue without it.
+Ignore file not found: /home/sshravyaharikant/.aiexclude, continue without it.
+Ignore file not found: /home/sshravyaharikant/.geminiignore, continue without it.
+Ignore file not found: /home/sshravyaharikant/.aiexclude, continue without it.
+Ripgrep is not available. Falling back to GrepTool.

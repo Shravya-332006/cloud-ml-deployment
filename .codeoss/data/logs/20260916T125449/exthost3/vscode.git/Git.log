@@ -1,0 +1,63 @@
+2026-09-16 13:56:26.835 [info] [main] Log level: Info
+2026-09-16 13:56:26.835 [info] [main] Validating found git in: "git"
+2026-09-16 13:56:26.835 [info] [main] Using git "2.43.0" from "git"
+2026-09-16 13:56:26.835 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-16 13:56:26.835 [info] > git rev-parse --show-toplevel [18ms]
+2026-09-16 13:56:26.835 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [78ms]
+2026-09-16 13:56:27.036 [info] [Model][openRepository] Opened repository (path): /home/sshravyaharikant
+2026-09-16 13:56:27.036 [info] [Model][openRepository] Opened repository (real path): /home/sshravyaharikant
+2026-09-16 13:56:27.036 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-16 13:56:27.215 [info] > git config --get --local core.virtualfilesystem [150ms]
+2026-09-16 13:56:27.215 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-16 13:56:27.221 [info] > git rev-parse --show-toplevel [26ms]
+2026-09-16 13:56:27.222 [info] > git config --get commit.template [38ms]
+2026-09-16 13:56:27.256 [info] > git rev-parse --show-toplevel [20ms]
+2026-09-16 13:56:27.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2026-09-16 13:56:27.274 [info] > git rev-parse --show-toplevel [4ms]
+2026-09-16 13:56:27.335 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2026-09-16 13:56:27.347 [info] > git rev-parse --show-toplevel [64ms]
+2026-09-16 13:56:27.417 [info] > git status -z -uall [123ms]
+2026-09-16 13:56:27.423 [info] > git rev-parse --show-toplevel [47ms]
+2026-09-16 13:56:27.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [56ms]
+2026-09-16 13:56:27.580 [info] > git config --get --local branch.main.vscode-merge-base [18ms]
+2026-09-16 13:56:27.580 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-16 13:56:27.586 [info] > git config --get commit.template [51ms]
+2026-09-16 13:56:27.586 [info] > git rev-parse --show-toplevel [61ms]
+2026-09-16 13:56:27.602 [info] > git reflog main --grep-reflog=branch: Created from *. [17ms]
+2026-09-16 13:56:27.610 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2026-09-16 13:56:27.610 [info] > git rev-parse --show-toplevel [15ms]
+2026-09-16 13:56:27.618 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [11ms]
+2026-09-16 13:56:27.618 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-09-16 13:56:27.618 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-09-16 13:56:27.629 [info] > git rev-parse --show-toplevel [12ms]
+2026-09-16 13:56:27.661 [info] > git rev-parse --show-toplevel [25ms]
+2026-09-16 13:56:27.662 [info] > git merge-base refs/heads/main refs/remotes/origin/main [36ms]
+2026-09-16 13:56:27.681 [info] > git status -z -uall [39ms]
+2026-09-16 13:56:27.682 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [32ms]
+2026-09-16 13:56:27.708 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2026-09-16 13:56:27.718 [info] > git rev-parse --show-toplevel [39ms]
+2026-09-16 13:56:27.719 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-16 13:56:27.719 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 3e64c91d306f5f57969b4d030dc1a2c02272030a...refs/remotes/origin/main -- [48ms]
+2026-09-16 13:56:27.723 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 3e64c91d306f5f57969b4d030dc1a2c02272030a...refs/remotes/origin/main -- [6ms]
+2026-09-16 13:56:27.743 [info] > git check-ignore -v -z --stdin [11ms]
+2026-09-16 13:56:27.865 [info] > git show --textconv :static/style.css [10ms]
+2026-09-16 13:56:27.869 [info] > git ls-files --stage -- static/style.css [5ms]
+2026-09-16 13:56:27.883 [info] > git cat-file -s 86cfe122210b15ae44917886468d3c7d0cbbd10a [5ms]
+2026-09-16 13:56:27.900 [info] > git check-ignore -v -z --stdin [4ms]
+2026-09-16 13:56:28.801 [info] > git check-ignore -v -z --stdin [17ms]
+2026-09-16 13:56:28.847 [info] > git blame --root --incremental 3e64c91d306f5f57969b4d030dc1a2c02272030a -- static/style.css [10ms]
+2026-09-16 13:56:32.982 [info] > git check-ignore -v -z --stdin [12ms]
+2026-09-16 13:56:39.135 [info] > git config --get commit.template [549ms]
+2026-09-16 13:56:40.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1230ms]
+2026-09-16 13:56:47.678 [info] > git check-ignore -v -z --stdin [6439ms]
+2026-09-16 13:56:47.830 [info] > git status -z -uall [134ms]
+2026-09-16 13:56:47.833 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [120ms]
+2026-09-16 13:56:48.458 [info] > git check-ignore -v -z --stdin [115ms]
+2026-09-16 13:56:49.185 [info] > git show --textconv :app.py [48ms]
+2026-09-16 13:56:49.236 [info] > git ls-files --stage -- app.py [75ms]
+2026-09-16 13:56:49.309 [info] > git cat-file -s 97f372966574e4f49815d67dbbc143ad7e75ccfa [32ms]
+2026-09-16 13:56:49.785 [info] > git check-ignore -v -z --stdin [19ms]
+2026-09-16 13:56:49.980 [info] > git show --textconv :templates/index.html [55ms]
+2026-09-16 13:56:49.993 [info] > git ls-files --stage -- templates/index.html [27ms]
+2026-09-16 13:56:50.066 [info] > git cat-file -s b5998900f5c66a871818f780d5f5f435ec962fca [14ms]
+2026-09-16 13:56:50.559 [info] > git blame --root --incremental 3e64c91d306f5f57969b4d030dc1a2c02272030a -- templates/index.html [43ms]

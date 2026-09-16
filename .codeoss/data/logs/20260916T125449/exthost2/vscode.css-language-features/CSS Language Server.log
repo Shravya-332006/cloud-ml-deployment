@@ -1,0 +1,24 @@
+2026-09-16 13:55:46.963 [error] Request textDocument/documentColor failed.
+Error: Starting server failed
+    at Nh.$start (/google/devshell/editor/code-oss-for-cloud-shell/extensions/css-language-features/client/dist/node/cssClientMain.js:16:10969)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Nh.sendRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/css-language-features/client/dist/node/cssClientMain.js:12:188938)
+    at Fk.provideColors (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:154:147508)
+2026-09-16 13:55:46.964 [error] Request textDocument/codeAction failed.
+Error: Starting server failed
+    at Nh.$start (/google/devshell/editor/code-oss-for-cloud-shell/extensions/css-language-features/client/dist/node/cssClientMain.js:16:10969)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Nh.sendRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/css-language-features/client/dist/node/cssClientMain.js:12:188938)
+    at k0.provideCodeActions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:154:128417)
+2026-09-16 13:55:46.964 [error] Request textDocument/codeAction failed.
+Error: Starting server failed
+    at Nh.$start (/google/devshell/editor/code-oss-for-cloud-shell/extensions/css-language-features/client/dist/node/cssClientMain.js:16:10969)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Nh.sendRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/css-language-features/client/dist/node/cssClientMain.js:12:188938)
+    at k0.provideCodeActions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:154:128417)
+2026-09-16 13:55:46.964 [error] Request textDocument/codeAction failed.
+Error: Starting server failed
+    at Nh.$start (/google/devshell/editor/code-oss-for-cloud-shell/extensions/css-language-features/client/dist/node/cssClientMain.js:16:10969)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at Nh.sendRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/css-language-features/client/dist/node/cssClientMain.js:12:188938)
+    at k0.provideCodeActions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:154:128417)
